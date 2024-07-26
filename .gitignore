@@ -104,4 +104,4 @@ dist
 .tern-port
 
 # Prettierrc
-.prettierrc.json
+.prettierrc
