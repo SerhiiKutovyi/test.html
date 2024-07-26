@@ -1,0 +1,94 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* ____________________________   Utils  _____________________________ */
+
+body {
+  margin: 0;
+  background-color: black;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 794px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+/* ______________________________     BODY    ___________________________________ */
+/* ______________________________ Section-title _________________________________ */
+
+.section-title {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title-text {
+  margin-bottom: 20px;
+}
+
+/* _____________________________ Section-info __________________________________ */
+
+.section-info {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.info-title {
+  margin-bottom: 20px;
+}
+
+.info-text {
+  margin-bottom: 30px;
+}
+
+.info-product {
+  text-align: center;
+}
+
+.table {
+  display: flex;
+}
