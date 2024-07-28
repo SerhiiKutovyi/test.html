@@ -39,7 +39,6 @@ ol {
 img {
   display: block;
   max-width: 100%;
-  height: auto;
 }
 
 .container {
@@ -109,7 +108,7 @@ td {
 }
 
 td > ul {
-   margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .column-left {
@@ -129,22 +128,43 @@ td > ul {
 
 .fail-pdf {
   margin-left: 30px;
-
 }
 
 /* _____________________________ Section-advantages __________________________________ */
 
-.advantages-section{
+.advantages-section {
   padding-left: 60px;
   padding-right: 60px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
+.advantages-title {
+  margin-bottom: 20px;
+  text-align: center;
+}
 
 .advantages-img {
   float: left;
+  margin-right: 10px;
 }
 
 .advantages-text {
-  margin-right: 10px;
+  margin-bottom: 30px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title-reliability {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.marker-reliability {
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-bottom: 20px;
+}
+
+.reliability-text {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
