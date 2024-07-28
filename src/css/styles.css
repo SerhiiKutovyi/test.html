@@ -49,7 +49,7 @@ img {
   background-color: white;
 }
 
-/* ______________________________     BODY    ___________________________________ */
+/* ______________________________     Header   ___________________________________ */
 /* ______________________________ Section-title _________________________________ */
 
 .section-title {
@@ -134,10 +134,17 @@ td > ul {
 
 /* _____________________________ Section-advantages __________________________________ */
 
-.section-advantages{
-   padding-left: 60px;
+.advantages-section{
+  padding-left: 60px;
   padding-right: 60px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
+.advantages-img {
+  float: left;
+}
+
+.advantages-text {
+  margin-right: 10px;
+}
