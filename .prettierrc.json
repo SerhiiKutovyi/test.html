@@ -1,4 +1,6 @@
 {
+
+  "parser": "html",
   "printWidth": 80,
   "editor.formatOnSave": true,
   "tabWidth": 2,
