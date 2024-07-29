@@ -1,9 +1,5 @@
 {
-
-  "parser": "html",
-  "parser": "css",
   "printWidth": 80,
-  "editor.formatOnSave": true,
   "tabWidth": 2,
   "useTabs": false,
   "semi": true,
